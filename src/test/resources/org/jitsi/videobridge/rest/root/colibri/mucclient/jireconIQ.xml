@@ -1,6 +1,6 @@
 <iq id="H4k2E-6" to="aaa@conference.meet.vanaaa.ca/focus" from="ming@meet.vanaaa.ca/Smack" type="set">
     <jingle xmlns='urn:xmpp:jingle:1' action='session-accept' initiator='aaa@conference.meet.vanaaa.ca/focus'
-            responder='ming@meet.vanaaa.ca/Smack' sid='dgs5j51pp4r20'>
+            responder='ming@meet.vanaaa.ca/Smack' sid='dgs5j51pp4r20'
         <content creator='responder' name='audio' senders='initiator'>
             <description xmlns='urn:xmpp:jingle:apps:rtp:1' media='audio' ssrc='2227356131'>
                 <payload-type id='126' name='telephone-event' channels='1' clockrate='8000'/>

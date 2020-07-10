@@ -16,6 +16,7 @@
 
 package org.jitsi.videobridge.rest.root.colibri.mucclient;
 
+import org.apache.commons.io.IOUtils;
 import org.eclipse.jetty.http.HttpStatus;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
@@ -42,15 +43,13 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class MucClientHandleIqTest extends JerseyTest
-{
+public class MucClientHandleIqTest extends JerseyTest {
     protected ClientConnectionProvider clientConnectionProvider;
     protected ClientConnectionImpl clientConnection;
     protected static final String BASE_URL = "/colibri/muc-client";
 
     @Override
-    protected Application configure()
-    {
+    protected Application configure() {
         clientConnectionProvider = mock(ClientConnectionProvider.class);
         clientConnection = mock(ClientConnectionImpl.class);
         when(clientConnectionProvider.get()).thenReturn(clientConnection);
@@ -66,10 +65,13 @@ public class MucClientHandleIqTest extends JerseyTest
     }
 
     @Test
-    public void testHandleIq() throws IOException {
+    public void testHandleIq() throws Exception {
         ClientConnectionImpl cc = new ClientConnectionImpl();
-        String iqContent = new String(Files.readAllBytes(Paths.get("./jireconIQ.xml")), StandardCharsets.UTF_8);;
-        IQUtils.parse(iqContent, null)
+        String iqContent = IOUtils.toString(
+                this.getClass().getResourceAsStream("jireconIQ.xml"),
+                "UTF-8"
+        );
+        IQUtils.parse(iqContent, null);
         cc.handleIq(null);
     }
 
