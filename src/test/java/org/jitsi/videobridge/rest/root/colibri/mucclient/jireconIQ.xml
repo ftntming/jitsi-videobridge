@@ -1,0 +1,195 @@
+<iq id="H4k2E-6" to="aaa@conference.meet.vanaaa.ca/focus" from="ming@meet.vanaaa.ca/Smack" type="set">
+    <jingle xmlns='urn:xmpp:jingle:1' action='session-accept' initiator='aaa@conference.meet.vanaaa.ca/focus'
+            responder='ming@meet.vanaaa.ca/Smack' sid='dgs5j51pp4r20'>
+        <content creator='responder' name='audio' senders='initiator'>
+            <description xmlns='urn:xmpp:jingle:apps:rtp:1' media='audio' ssrc='2227356131'>
+                <payload-type id='126' name='telephone-event' channels='1' clockrate='8000'/>
+                <payload-type id='111' name='opus' channels='2' clockrate='48000'>
+                    <parameter name='usedtx' value='1'/>
+                </payload-type>
+                <source xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' ssrc='2227356131'>
+                    <parameter name='cname' value='9c0504c8-e1fb-40f1-8934-897fda609eda'/>
+                    <parameter name='msid'
+                               value='f7ca6171-ee2c-4d5e-b34c-f0a9fb337389 8593950a93224e559960b34fb9f751d8'/>
+                    <parameter name='mslabel' value='f7ca6171-ee2c-4d5e-b34c-f0a9fb337389'/>
+                    <parameter name='label' value='8593950a93224e559960b34fb9f751d8'/>
+                </source>
+            </description>
+            <transport xmlns='urn:xmpp:jingle:transports:ice-udp:1' pwd='57p8o40ngjsic45tvq6s1l3tne'
+                       ufrag='18g6p1ecsic28d'>
+                <fingerprint xmlns='urn:xmpp:jingle:apps:dtls:0' hash='sha-1' setup='active'>
+                    96:3D:BF:FC:BB:C9:32:0F:94:84:EB:5E:67:11:B8:5A:4C:DD:D2:37
+                </fingerprint>
+                <candidate component='1' foundation='1' generation='0' id='1' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61200' priority='2130706431' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='2' generation='0' id='2' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61200' priority='2130706431' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='3' generation='0' id='3' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61200' priority='2113939711' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='4' generation='0' id='4' network='0' ip='192.168.1.65' port='61200'
+                           priority='2113932031' protocol='udp' type='host'/>
+                <candidate component='1' foundation='5' generation='0' id='5' network='0' ip='162.156.92.16'
+                           port='61200' priority='1677724415' rel-addr='192.168.1.65' rel-port='61200'
+                           raddr='192.168.1.65' rport='61200' protocol='udp' type='srflx'/>
+                <candidate component='2' foundation='1' generation='0' id='6' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61202' priority='2130706430' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='2' generation='0' id='7' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61202' priority='2130706430' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='3' generation='0' id='8' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61202' priority='2113939710' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='4' generation='0' id='9' network='0' ip='192.168.1.65' port='61202'
+                           priority='2113932030' protocol='udp' type='host'/>
+                <candidate component='2' foundation='5' generation='0' id='10' network='0' ip='162.156.92.16'
+                           port='61202' priority='1677724414' rel-addr='192.168.1.65' rel-port='61202'
+                           raddr='192.168.1.65' rport='61202' protocol='udp' type='srflx'/>
+                <candidate component='3' foundation='1' generation='0' id='11' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61207' priority='2130706429' protocol='udp'
+                           type='host'/>
+                <candidate component='3' foundation='2' generation='0' id='12' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61207' priority='2130706429' protocol='udp'
+                           type='host'/>
+                <candidate component='3' foundation='3' generation='0' id='13' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61207' priority='2113939709' protocol='udp'
+                           type='host'/>
+                <candidate component='3' foundation='4' generation='0' id='14' network='0' ip='192.168.1.65'
+                           port='61207' priority='2113932029' protocol='udp' type='host'/>
+                <candidate component='3' foundation='5' generation='0' id='15' network='0' ip='162.156.92.16'
+                           port='61207' priority='1677724413' rel-addr='192.168.1.65' rel-port='61207'
+                           raddr='192.168.1.65' rport='61207' protocol='udp' type='srflx'/>
+                <candidate component='4' foundation='1' generation='0' id='16' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61209' priority='2130706428' protocol='udp'
+                           type='host'/>
+                <candidate component='4' foundation='2' generation='0' id='17' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61209' priority='2130706428' protocol='udp'
+                           type='host'/>
+                <candidate component='4' foundation='3' generation='0' id='18' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61209' priority='2113939708' protocol='udp'
+                           type='host'/>
+                <candidate component='4' foundation='4' generation='0' id='19' network='0' ip='192.168.1.65'
+                           port='61209' priority='2113932028' protocol='udp' type='host'/>
+                <candidate component='4' foundation='5' generation='0' id='20' network='0' ip='162.156.92.16'
+                           port='61209' priority='1677724412' rel-addr='192.168.1.65' rel-port='61209'
+                           raddr='192.168.1.65' rport='61209' protocol='udp' type='srflx'/>
+            </transport>
+        </content>
+        <content creator='responder' name='video' senders='initiator'>
+            <description xmlns='urn:xmpp:jingle:apps:rtp:1' media='video' ssrc='535799185'>
+                <payload-type id='100' name='VP8' clockrate='90000'/>
+                <payload-type id='101' name='VP9' clockrate='90000'/>
+                <source xmlns='urn:xmpp:jingle:apps:rtp:ssma:0' ssrc='535799185'>
+                    <parameter name='cname' value='9c0504c8-e1fb-40f1-8934-897fda609eda'/>
+                    <parameter name='msid'
+                               value='5b52763f-32b0-422b-9d1b-cd02d048f5fb d64a94ebf5a940a79587cf0c957aa635'/>
+                    <parameter name='mslabel' value='5b52763f-32b0-422b-9d1b-cd02d048f5fb'/>
+                    <parameter name='label' value='d64a94ebf5a940a79587cf0c957aa635'/>
+                </source>
+            </description>
+            <transport xmlns='urn:xmpp:jingle:transports:ice-udp:1' pwd='57p8o40ngjsic45tvq6s1l3tne'
+                       ufrag='18g6p1ecsic28d'>
+                <fingerprint xmlns='urn:xmpp:jingle:apps:dtls:0' hash='sha-1' setup='active'>
+                    96:3D:BF:FC:BB:C9:32:0F:94:84:EB:5E:67:11:B8:5A:4C:DD:D2:37
+                </fingerprint>
+                <candidate component='1' foundation='1' generation='0' id='1' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61203' priority='2130706431' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='2' generation='0' id='2' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61203' priority='2130706431' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='3' generation='0' id='3' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61203' priority='2113939711' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='4' generation='0' id='4' network='0' ip='192.168.1.65' port='61203'
+                           priority='2113932031' protocol='udp' type='host'/>
+                <candidate component='1' foundation='5' generation='0' id='5' network='0' ip='162.156.92.16'
+                           port='61203' priority='1677724415' rel-addr='192.168.1.65' rel-port='61203'
+                           raddr='192.168.1.65' rport='61203' protocol='udp' type='srflx'/>
+                <candidate component='2' foundation='1' generation='0' id='6' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61205' priority='2130706430' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='2' generation='0' id='7' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61205' priority='2130706430' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='3' generation='0' id='8' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61205' priority='2113939710' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='4' generation='0' id='9' network='0' ip='192.168.1.65' port='61205'
+                           priority='2113932030' protocol='udp' type='host'/>
+                <candidate component='2' foundation='5' generation='0' id='10' network='0' ip='162.156.92.16'
+                           port='61205' priority='1677724414' rel-addr='192.168.1.65' rel-port='61205'
+                           raddr='192.168.1.65' rport='61205' protocol='udp' type='srflx'/>
+                <candidate component='3' foundation='1' generation='0' id='11' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61210' priority='2130706429' protocol='udp'
+                           type='host'/>
+                <candidate component='3' foundation='2' generation='0' id='12' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61210' priority='2130706429' protocol='udp'
+                           type='host'/>
+                <candidate component='3' foundation='3' generation='0' id='13' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61210' priority='2113939709' protocol='udp'
+                           type='host'/>
+                <candidate component='3' foundation='4' generation='0' id='14' network='0' ip='192.168.1.65'
+                           port='61210' priority='2113932029' protocol='udp' type='host'/>
+                <candidate component='3' foundation='5' generation='0' id='15' network='0' ip='162.156.92.16'
+                           port='61210' priority='1677724413' rel-addr='192.168.1.65' rel-port='61210'
+                           raddr='192.168.1.65' rport='61210' protocol='udp' type='srflx'/>
+                <candidate component='4' foundation='1' generation='0' id='16' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61212' priority='2130706428' protocol='udp'
+                           type='host'/>
+                <candidate component='4' foundation='2' generation='0' id='17' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61212' priority='2130706428' protocol='udp'
+                           type='host'/>
+                <candidate component='4' foundation='3' generation='0' id='18' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61212' priority='2113939708' protocol='udp'
+                           type='host'/>
+                <candidate component='4' foundation='4' generation='0' id='19' network='0' ip='192.168.1.65'
+                           port='61212' priority='2113932028' protocol='udp' type='host'/>
+                <candidate component='4' foundation='5' generation='0' id='20' network='0' ip='162.156.92.16'
+                           port='61212' priority='1677724412' rel-addr='192.168.1.65' rel-port='61212'
+                           raddr='192.168.1.65' rport='61212' protocol='udp' type='srflx'/>
+            </transport>
+        </content>
+        <content creator='responder' name='data' senders='initiator'>
+            <transport xmlns='urn:xmpp:jingle:transports:ice-udp:1' pwd='57p8o40ngjsic45tvq6s1l3tne'
+                       ufrag='18g6p1ecsic28d'>
+                <fingerprint xmlns='urn:xmpp:jingle:apps:dtls:0' hash='sha-1' setup='active'>
+                    96:3D:BF:FC:BB:C9:32:0F:94:84:EB:5E:67:11:B8:5A:4C:DD:D2:37
+                </fingerprint>
+                <sctpmap xmlns='urn:xmpp:jingle:transports:dtls-sctp:1' number='5000' protocol='webrtc-datachannel'
+                         streams='1024'/>
+                <candidate component='1' foundation='1' generation='0' id='1' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61206' priority='2130706431' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='2' generation='0' id='2' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61206' priority='2130706431' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='3' generation='0' id='3' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61206' priority='2113939711' protocol='udp'
+                           type='host'/>
+                <candidate component='1' foundation='4' generation='0' id='4' network='0' ip='192.168.1.65' port='61206'
+                           priority='2113932031' protocol='udp' type='host'/>
+                <candidate component='1' foundation='5' generation='0' id='5' network='0' ip='162.156.92.16'
+                           port='61206' priority='1677724415' rel-addr='192.168.1.65' rel-port='61206'
+                           raddr='192.168.1.65' rport='61206' protocol='udp' type='srflx'/>
+                <candidate component='2' foundation='1' generation='0' id='6' network='0'
+                           ip='2001:569:7cda:8100:2d50:fd74:17ed:545e' port='61213' priority='2130706430' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='2' generation='0' id='7' network='0'
+                           ip='fe80:0:0:0:20c:29ff:fe6a:14c2' port='61213' priority='2130706430' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='3' generation='0' id='8' network='0'
+                           ip='2001:569:7cda:8100:20c:29ff:fe6a:14c2' port='61213' priority='2113939710' protocol='udp'
+                           type='host'/>
+                <candidate component='2' foundation='4' generation='0' id='9' network='0' ip='192.168.1.65' port='61213'
+                           priority='2113932030' protocol='udp' type='host'/>
+                <candidate component='2' foundation='5' generation='0' id='10' network='0' ip='162.156.92.16'
+                           port='61213' priority='1677724414' rel-addr='192.168.1.65' rel-port='61213'
+                           raddr='192.168.1.65' rport='61213' protocol='udp' type='srflx'/>
+            </transport>
+        </content>
+    </jingle>
+</iq>
